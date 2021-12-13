@@ -52,7 +52,7 @@ function biblio() {
     cell4.innerHTML = date;
     cell5.innerHTML = langue;
     cell6.innerHTML = type;
-    cell7.innerHTML = `<a onClick='EditRow(this)'value="edit" id="btnedit" type="submit">Modifier</a>`;
+    cell7.innerHTML = `<onClick='EditRow(this)'value="edit" id="btnedit" type="submit">Modifier</a>`;
     cell8.innerHTML = `<a onClick="onDelete(this)">Supprimer</a>`;
 
     
