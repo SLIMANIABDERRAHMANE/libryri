@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Old+Standard+TT&display=swap" rel="stylesheet"> 
+    <title>bibliothèque</title>
+</head>
+<body>
+    <nav>
+      <h1>Gestion d'ouvrages dans une bibliothèque</h1>
+    </nav>
+    <main>
+        <section class="sec1">
+            <form class="ac1">
+                <label for="titre">Titre</label>
+                <input type="text" placeholder="Titre de l'ouvrage" id="titre" maxlength="30">
+                <label for="titre">Auteur</label>
+                <input type="text" placeholder="Le nom qui a crier l'ouvrage" id="auteur" maxlength="30">
+                <label for="prix">Prix</label>
+                <input type="number" placeholder="Prix de l'ouvrage" id="prix" min="5" max="600">
+                <label for="date">Date</label>
+                <input type="date" placeholder="La Date de publication" id="date">
+                <label for="titre">Langue</label>
+                <input type="text" placeholder="Sélectionner La Langue de l'ouvrage" list="sliblio" id="langue">
+                <datalist id="sliblio">
+                    <option value="Francais">
+                    <option value="Espagnol">
+                    <option value="Anglais">
+                </datalist>
+                
+            
+            
+            <div class="ac3" >
+                
+                <label>Type</label>
+                <div class="desgin" id="desgin">
+                <label for="essai">Nouvelle</label>
+                <input type="radio" value="Nouvelle" name="drone" class="type">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <label for="Roman">Roman</label>
+                <input type="radio" value="Roman" name="drone" class="type">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <label for="BD">Poésie</label>
+                <input type="radio" value="Poésie" name="drone" class="type">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <label for="BD">Théâtre</label>
+                <input type="radio" value="Théâtre" name="drone" class="type">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <label for="BD">Autre type</label>
+                <input type="radio" value="Autre type" name="drone" class="type">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                </div>
+                </div>
+
+                
+            </form>
+            <input  type="submit" value="Ajouter l'ouvrage"  id="entry" >
+        </section>
+        <section class="sec2">
+            <table id="table">
+                <thead>
+                <tr>
+                    <th>Titre</th>
+                    <th>Auteur</th>
+                    <th>Prix</th>
+                    <th>Date de publication</th>
+                    <th>Langue</th>
+                    <th>type</th>
+                    <th >Modifier</th>
+                    <th>Supprimer</th>
+                </tr>
+                </thead>
+                <tbody>
+                    
+                </tbody>
+            </table>
+
+        </section>
+
+    </main>
+    <footer class="foot">
+        <ul>
+            <li>Num de Téléphone: +(212) 6.28.44.27.47 <br> Email: contactsli.bibliothique@gmail.com</li>
+            <li>Adresse: Bni Waryaghel: 90000 Tanger, Maroc</li>
+            <li> 2021 ©️ copyrights tous les droits reservés par slibiblio </li>
+        </ul>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>

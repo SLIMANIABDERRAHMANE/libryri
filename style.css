@@ -1,0 +1,115 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Old Standard TT', serif;
+    background-image: url('img/library5.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+main{
+    width: 100%;
+}
+th{
+    background-color: wheat;
+    color: black;
+}
+h1{
+    text-align: center;
+    color: white;
+    background-color: #B48D6E;
+    padding: 10px;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 40px;
+}
+
+.sec1{
+    border: solid 5px #B48D6E;
+    width: 43%;
+    height: auto;
+    margin: 5% 435px 3% 400px ;
+    border-radius: 20px;
+    padding: 10px ;
+    background-color: wheat;
+}
+.ac1{
+    display: grid;
+    grid-template-rows: auto auto auto auto auto;
+    row-gap: 15px;
+}
+
+
+.ac3{
+    display: grid;
+    grid-template-columns: 10% 90%;
+    column-gap: 70px;
+    margin: 15px 0 15px 0 ;
+    width: 100%;
+}
+
+
+input{
+    padding: 10px;
+    border-style: solid 2px black;
+    border-radius: 20px;
+
+}
+.desgin{
+    display: grid;
+    grid-template-columns: 30px 30px 30px 30px 30px;
+    
+}
+table {
+    background-color: #B48D6E;
+    width: 100%;
+    margin: 0 150px;
+}
+table, th, td {
+    border: 3px solid black;
+    font-size: 16px; 
+    border-collapse: collapse;   
+  }
+td , th {
+    padding: 20px;
+}
+table, td {
+    text-align: center;
+    
+  } 
+
+#desgin{
+    display: inline-flex;
+}
+#entry{
+    width: 100%;
+    background-color: #B48D6E;
+
+}
+#entry1{
+    width: 100%;
+    background-color: #B48D6E;
+}
+#entry2{
+    width: 100%;
+    background-color: #B48D6E;
+}
+.inputfield{
+    display: flex;
+    flex-direction: column;
+}
+.sec2{
+    margin: 10% 20% 10% 0% ;
+}
+ul , li{
+    background-color: wheat;
+    display: flex ;
+    justify-content: space-around;
+    padding: 10px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+
