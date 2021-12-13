@@ -15,7 +15,7 @@ function biblio() {
     var prix = document.getElementById("prix").value;
     var date = document.getElementById("date").value;
     var langue = document.getElementById("langue").value;
-    var type = document.getElementsByClassName("type");
+    var type = document.querySelector('input[name="drone"]:checked').value;
 
     
     
